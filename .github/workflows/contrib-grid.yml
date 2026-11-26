@@ -1,0 +1,35 @@
+name: Update Luminous Contribution Grid
+
+on:
+  schedule:
+    # Run automatically every 24 hours
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-contrib:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Luminous Contribution Grid SVG
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/generate_contrib.py
+
+      - name: Commit updated contribution grid
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/contrib-grid.svg
+          git diff --cached --quiet || git commit -m "chore: auto-update luminous contribution grid"
+          git push
