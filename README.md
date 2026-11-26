@@ -16,22 +16,11 @@
 
 ### `01` — About & Core Focus
 
-<table>
-  <tr>
-    <td width="33.3%" valign="top">
-      <h4>Full-Stack Development</h4>
-      <sub>End-to-end web development from responsive, modern frontends to structured, scalable backend APIs and databases.</sub>
-    </td>
-    <td width="33.3%" valign="top">
-      <h4>Software Engineering</h4>
-      <sub>Writing clean, maintainable code with thoughtful architecture, version control discipline, and practical problem-solving.</sub>
-    </td>
-    <td width="33.3%" valign="top">
-      <h4>IT Support &amp; Systems</h4>
-      <sub>Troubleshooting hardware, software, and network workflows to keep operations smooth, stable, and dependable.</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/pillars.svg" width="100%" alt="Core Focus: Full-Stack Development, Software Engineering, IT Support & Systems" />
+</div>
+
+<br />
 
 ```ts
 const nestiawan = {
@@ -98,13 +87,15 @@ const nestiawan = {
 
 <div align="center">
   <a href="https://www.linkedin.com/in/nestiawanfyans" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-nestiawanfyans-161B22?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=0D1117" alt="LinkedIn" />
+    <img src="./assets/btn-linkedin.svg" alt="LinkedIn — nestiawanfyans" />
   </a>
+  &nbsp;
   <a href="https://www.instagram.com/nestfyan/?hl=en" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-@nestfyan-161B22?style=for-the-badge&logo=instagram&logoColor=818CF8&labelColor=0D1117" alt="Instagram" />
+    <img src="./assets/btn-instagram.svg" alt="Instagram — @nestfyan" />
   </a>
+  &nbsp;
   <a href="https://github.com/nestiawanfyans" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-nestiawanfyans-161B22?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=0D1117" alt="GitHub" />
+    <img src="./assets/btn-github.svg" alt="GitHub — @nestiawanfyans" />
   </a>
 </div>
 

@@ -1,0 +1,23 @@
+<svg width="218" height="46" viewBox="0 0 218 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#19192B" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#21262D" />
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="216.5" height="44.5" rx="11" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2" />
+  <!-- Instagram Logo -->
+  <rect x="12" y="11" width="24" height="24" rx="6" fill="#818CF8" fill-opacity="0.14" />
+  <rect x="17.5" y="16.5" width="13" height="13" rx="3.5" stroke="#818CF8" stroke-width="1.6" />
+  <circle cx="24" cy="23" r="3" stroke="#818CF8" stroke-width="1.6" />
+  <circle cx="27.6" cy="19.4" r="0.9" fill="#818CF8" />
+  <!-- Labels -->
+  <text x="46" y="21" fill="#F8FAFC" font-size="12.5" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Roboto, sans-serif">Instagram</text>
+  <text x="46" y="34.5" fill="#A5B4FC" font-size="10.5" font-weight="500" font-family="'SF Mono', ui-monospace, Menlo, Consolas, monospace">@nestfyan</text>
+  <!-- Subtle arrow -->
+  <path d="M197 19L202 23L197 27" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

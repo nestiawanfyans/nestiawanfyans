@@ -1,0 +1,162 @@
+<svg width="900" height="214" viewBox="0 0 900 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Card background gradients -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131922" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+
+    <!-- Subtle top ambient glows -->
+    <radialGradient id="glow1" cx="20%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="20%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="20%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Top accent border lines -->
+    <linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="line2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="line3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+    }
+    .mono {
+      font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-weight: 500;
+    }
+  </style>
+
+  <!-- ==================== CARD 1: FULL-STACK DEVELOPMENT ==================== -->
+  <g transform="translate(0, 2)">
+    <rect x="0.5" y="0.5" width="288" height="209" rx="14" fill="url(#cardBg)" stroke="#21262D" stroke-width="1.2" />
+    <rect x="1" y="1" width="287" height="208" rx="13.5" fill="url(#glow1)" />
+    <rect x="22" y="0.5" width="130" height="1.6" rx="1" fill="url(#line1)" />
+
+    <!-- Icon Box -->
+    <rect x="22" y="22" width="38" height="38" rx="10" fill="#161F2C" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1" />
+    <!-- Code / Layers Icon -->
+    <path d="M35 37L30.5 41L35 45M47 37L51.5 41L47 45M43.2 35L38.8 47" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Index tag -->
+    <text x="266" y="45" text-anchor="end" fill="#475569" font-size="11" class="mono">01</text>
+
+    <!-- Title -->
+    <text x="22" y="86" fill="#F8FAFC" font-size="16" class="title">Full-Stack Development</text>
+
+    <!-- Description -->
+    <text x="22" y="112" fill="#94A3B8" font-size="12.5" class="body">End-to-end web engineering from</text>
+    <text x="22" y="131" fill="#94A3B8" font-size="12.5" class="body">polished, responsive UIs to fast,</text>
+    <text x="22" y="150" fill="#94A3B8" font-size="12.5" class="body">scalable APIs &amp; databases.</text>
+
+    <!-- Bottom Tags -->
+    <g transform="translate(22, 169)">
+      <rect width="68" height="22" rx="6" fill="#161B22" stroke="#263040" stroke-width="1" />
+      <text x="34" y="14.5" text-anchor="middle" fill="#7DD3FC" font-size="10.5" class="mono">Frontend</text>
+
+      <rect x="75" width="52" height="22" rx="6" fill="#161B22" stroke="#263040" stroke-width="1" />
+      <text x="101" y="14.5" text-anchor="middle" fill="#7DD3FC" font-size="10.5" class="mono">APIs</text>
+
+      <rect x="134" width="76" height="22" rx="6" fill="#161B22" stroke="#263040" stroke-width="1" />
+      <text x="172" y="14.5" text-anchor="middle" fill="#7DD3FC" font-size="10.5" class="mono">Databases</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: SOFTWARE ENGINEERING ==================== -->
+  <g transform="translate(306, 2)">
+    <rect x="0.5" y="0.5" width="288" height="209" rx="14" fill="url(#cardBg)" stroke="#21262D" stroke-width="1.2" />
+    <rect x="1" y="1" width="287" height="208" rx="13.5" fill="url(#glow2)" />
+    <rect x="22" y="0.5" width="130" height="1.6" rx="1" fill="url(#line2)" />
+
+    <!-- Icon Box -->
+    <rect x="22" y="22" width="38" height="38" rx="10" fill="#181C2E" stroke="#818CF8" stroke-opacity="0.35" stroke-width="1" />
+    <!-- Architecture / Cube Icon -->
+    <path d="M41 32.5L49 37V45.5L41 50L33 45.5V37L41 32.5Z" stroke="#818CF8" stroke-width="1.7" stroke-linejoin="round" />
+    <path d="M33 37L41 41.5L49 37M41 41.5V50" stroke="#818CF8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Index tag -->
+    <text x="266" y="45" text-anchor="end" fill="#475569" font-size="11" class="mono">02</text>
+
+    <!-- Title -->
+    <text x="22" y="86" fill="#F8FAFC" font-size="16" class="title">Software Engineering</text>
+
+    <!-- Description -->
+    <text x="22" y="112" fill="#94A3B8" font-size="12.5" class="body">Crafting clean, maintainable code</text>
+    <text x="22" y="131" fill="#94A3B8" font-size="12.5" class="body">with solid architecture, Git flow,</text>
+    <text x="22" y="150" fill="#94A3B8" font-size="12.5" class="body">and pragmatic problem-solving.</text>
+
+    <!-- Bottom Tags -->
+    <g transform="translate(22, 169)">
+      <rect width="78" height="22" rx="6" fill="#161B22" stroke="#282B45" stroke-width="1" />
+      <text x="39" y="14.5" text-anchor="middle" fill="#A5B4FC" font-size="10.5" class="mono">Clean Code</text>
+
+      <rect x="85" width="90" height="22" rx="6" fill="#161B22" stroke="#282B45" stroke-width="1" />
+      <text x="130" y="14.5" text-anchor="middle" fill="#A5B4FC" font-size="10.5" class="mono">Architecture</text>
+
+      <rect x="182" width="44" height="22" rx="6" fill="#161B22" stroke="#282B45" stroke-width="1" />
+      <text x="204" y="14.5" text-anchor="middle" fill="#A5B4FC" font-size="10.5" class="mono">Git</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: IT SUPPORT & SYSTEMS ==================== -->
+  <g transform="translate(612, 2)">
+    <rect x="0.5" y="0.5" width="288" height="209" rx="14" fill="url(#cardBg)" stroke="#21262D" stroke-width="1.2" />
+    <rect x="1" y="1" width="287" height="208" rx="13.5" fill="url(#glow3)" />
+    <rect x="22" y="0.5" width="130" height="1.6" rx="1" fill="url(#line3)" />
+
+    <!-- Icon Box -->
+    <rect x="22" y="22" width="38" height="38" rx="10" fill="#1F192E" stroke="#C084FC" stroke-opacity="0.35" stroke-width="1" />
+    <!-- Server / Systems Icon -->
+    <rect x="33" y="33.5" width="16" height="6" rx="1.8" stroke="#C084FC" stroke-width="1.6" />
+    <rect x="33" y="42.5" width="16" height="6" rx="1.8" stroke="#C084FC" stroke-width="1.6" />
+    <circle cx="36.5" cy="36.5" r="1" fill="#C084FC" />
+    <circle cx="36.5" cy="45.5" r="1" fill="#C084FC" />
+
+    <!-- Index tag -->
+    <text x="266" y="45" text-anchor="end" fill="#475569" font-size="11" class="mono">03</text>
+
+    <!-- Title -->
+    <text x="22" y="86" fill="#F8FAFC" font-size="16" class="title">IT Support &amp; Systems</text>
+
+    <!-- Description -->
+    <text x="22" y="112" fill="#94A3B8" font-size="12.5" class="body">Diagnosing hardware, software,</text>
+    <text x="22" y="131" fill="#94A3B8" font-size="12.5" class="body">and network issues to keep daily</text>
+    <text x="22" y="150" fill="#94A3B8" font-size="12.5" class="body">operations fast &amp; dependable.</text>
+
+    <!-- Bottom Tags -->
+    <g transform="translate(22, 169)">
+      <rect width="74" height="22" rx="6" fill="#161B22" stroke="#312645" stroke-width="1" />
+      <text x="37" y="14.5" text-anchor="middle" fill="#D8B4FE" font-size="10.5" class="mono">Infra Ops</text>
+
+      <rect x="81" width="66" height="22" rx="6" fill="#161B22" stroke="#312645" stroke-width="1" />
+      <text x="114" y="14.5" text-anchor="middle" fill="#D8B4FE" font-size="10.5" class="mono">Network</text>
+
+      <rect x="154" width="54" height="22" rx="6" fill="#161B22" stroke="#312645" stroke-width="1" />
+      <text x="181" y="14.5" text-anchor="middle" fill="#D8B4FE" font-size="10.5" class="mono">Linux</text>
+    </g>
+  </g>
+</svg>
