@@ -16,21 +16,16 @@
 
 ### `01` — About & Core Focus
 
-<div align="center">
-  <img src="./assets/pillars.svg" width="100%" alt="Core Focus: Full-Stack Development, Software Engineering, IT Support & Systems" />
-</div>
+<p align="center">
+  I'm <strong>Nestiawan Ferdiyanto</strong>, a <strong>Full-Stack Developer</strong>, <strong>Software Engineer</strong>, and <strong>IT Support</strong> based in <strong>Bandar Lampung, Indonesia</strong>.<br />
+  I focus on building modern, scalable web applications with clean architecture while keeping systems reliable, efficient, and user-ready.
+</p>
 
 <br />
 
-```ts
-const nestiawan = {
-  name: "Nestiawan Ferdiyanto",
-  location: "Bandar Lampung, Indonesia",
-  roles: ["Full-Stack Developer", "Software Engineer", "IT Support"],
-  focus: ["Modern Web Apps", "Clean Architecture", "System Reliability"],
-  motto: "Making my own creativity better.",
-};
-```
+<div align="center">
+  <img src="./assets/pillars.svg" width="100%" alt="Core Focus: Full-Stack Development, Software Engineering, IT Support & Systems" />
+</div>
 
 <div align="center">
   <img src="./assets/divider.svg" width="100%" alt="" />
