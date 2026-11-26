@@ -25,7 +25,7 @@
 
 <!-- AUTO-TECH-STACK:START -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,vue,java,css,html,php,js,docker,git,linux&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,vue,java,css,html,php,js,python,docker,git,linux&theme=dark" alt="Tech Stack" />
 </div>
 <!-- AUTO-TECH-STACK:END -->
 
