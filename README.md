@@ -1,27 +1,53 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f2937&height=180&section=header&text=Nestiawan%20Ferdiyanto&fontSize=38&fontColor=e6edf3&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Software%20Engineering%20%E2%80%A2%20IT%20Support&descAlignY=60&descSize=15&descColor=8b949e&animation=fadeIn" width="100%" alt="Nestiawan Ferdiyanto Header" />
+  <img src="./assets/hero.svg" width="100%" alt="Nestiawan Ferdiyanto — Full-Stack Developer, Software Engineering & IT Support" />
 </div>
 
 <div align="center">
   <a href="https://github.com/nestiawanfyans">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%26+Software+Engineer;IT+Support+%26+System+Troubleshooting;Building+clean%2C+scalable+%26+modern+web+apps;Making+my+own+creativity+better." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1100&color=38BDF8&center=true&vCenter=true&width=620&height=34&lines=%3E+Building+modern%2C+scalable+full-stack+applications;%3E+Engineering+clean+architecture+%26+maintainable+code;%3E+Keeping+IT+systems+reliable%2C+fast+%26+secure;%3E+Making+my+own+creativity+better." alt="Typing Subtitle" />
   </a>
 </div>
 
 <br />
 
-### About Me
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+</div>
 
-> *"Making my own creativity better."*
+### `01` — About & Core Focus
 
-- **Focus:** Full-Stack Web Development, Software Engineering, and IT Support
-- **Location:** Bandar Lampung, Indonesia
-- **What I Do:** Designing clean user interfaces, engineering reliable backend systems, and keeping IT infrastructure running smoothly
-- **Approach:** Minimalist, maintainable code with practical problem-solving
+<table>
+  <tr>
+    <td width="33.3%" valign="top">
+      <h4>Full-Stack Development</h4>
+      <sub>End-to-end web development from responsive, modern frontends to structured, scalable backend APIs and databases.</sub>
+    </td>
+    <td width="33.3%" valign="top">
+      <h4>Software Engineering</h4>
+      <sub>Writing clean, maintainable code with thoughtful architecture, version control discipline, and practical problem-solving.</sub>
+    </td>
+    <td width="33.3%" valign="top">
+      <h4>IT Support &amp; Systems</h4>
+      <sub>Troubleshooting hardware, software, and network workflows to keep operations smooth, stable, and dependable.</sub>
+    </td>
+  </tr>
+</table>
 
----
+```ts
+const nestiawan = {
+  name: "Nestiawan Ferdiyanto",
+  location: "Bandar Lampung, Indonesia",
+  roles: ["Full-Stack Developer", "Software Engineer", "IT Support"],
+  focus: ["Modern Web Apps", "Clean Architecture", "System Reliability"],
+  motto: "Making my own creativity better.",
+};
+```
 
-### Tech Stack
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+</div>
+
+### `02` — Tech Stack
 
 <!-- AUTO-TECH-STACK:START -->
 <div align="center">
@@ -30,27 +56,31 @@
 <!-- AUTO-TECH-STACK:END -->
 
 <p align="center">
-  <sub><i>Automatically synced with my GitHub repositories via GitHub Actions.</i></sub>
+  <sub><i>Auto-synced directly from my GitHub repositories via GitHub Actions.</i></sub>
 </p>
 
----
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+</div>
 
-### GitHub Analytics
+### `03` — GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nestiawanfyans&show_icons=true&count_private=true&bg_color=0d1117&border_color=21262d&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff&border_radius=10" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nestiawanfyans&layout=compact&langs_count=8&bg_color=0d1117&border_color=21262d&title_color=e6edf3&text_color=8b949e&border_radius=10" alt="Top Languages" />
+  <img height="170" src="https://streak-stats.demolab.com?user=nestiawanfyans&background=0d1117&border=21262d&ring=38bdf8&fire=a855f7&currStreakLabel=e2e8f0&sideLabels=e2e8f0&currStreakNum=f8fafc&sideNums=f8fafc&dates=8b949e&border_radius=12" alt="GitHub Streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nestiawanfyans&layout=compact&langs_count=8&bg_color=0d1117&border_color=21262d&title_color=f8fafc&text_color=94a3b8&border_radius=12" alt="Top Languages" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=nestiawanfyans&background=0d1117&border=21262d&ring=58a6ff&fire=a371f7&currStreakLabel=e6edf3&sideLabels=e6edf3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&border_radius=10" alt="GitHub Streak" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nestiawanfyans&bg_color=0d1117&color=94a3b8&line=38bdf8&point=a855f7&area=true&area_color=38bdf8&hide_border=false&custom_title=Contribution%20Overview" alt="Contribution Activity Graph" />
 </div>
 
----
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+</div>
 
-### Contribution Activity
+### `04` — Contribution Snake
 
 <div align="center">
   <picture>
@@ -60,29 +90,26 @@
   </picture>
 </div>
 
----
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+</div>
 
-### Connect
+### `05` — Connect
 
 <div align="center">
-  <a href="https://instagram.com/nestfyan" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-161B22?style=for-the-badge&logo=instagram&logoColor=E6EDF3" alt="Instagram" />
+  <a href="https://www.linkedin.com/in/nestiawanfyans" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-nestiawanfyans-161B22?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=0D1117" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/nestfyan/?hl=en" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-@nestfyan-161B22?style=for-the-badge&logo=instagram&logoColor=818CF8&labelColor=0D1117" alt="Instagram" />
   </a>
   <a href="https://github.com/nestiawanfyans" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-nestiawanfyans-161B22?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=0D1117" alt="GitHub" />
   </a>
-  <!-- Uncomment & ganti link di bawah jika sudah siap ditambahkan:
-  <a href="https://linkedin.com/in/USERNAME_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
-  </a>
-  <a href="mailto:email@domain.com">
-    <img src="https://img.shields.io/badge/Email-161B22?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" />
-  </a>
-  -->
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,50:161b22,100:0d1117&height=90&section=footer" width="100%" alt="Footer" />
+  <img src="./assets/footer.svg" width="100%" alt="Nestiawan Ferdiyanto Footer" />
 </div>
