@@ -490,6 +490,7 @@
     <rect x="846.1" y="111.0" width="11.8" height="11.8" rx="3" fill="#0E7490" stroke="#155E75" stroke-width="0.6" />
     <rect x="846.1" y="126.0" width="11.8" height="11.8" rx="3" fill="#06B6D4" stroke="#22D3EE" stroke-width="0.6" filter="url(#softGlow)" />
     <rect x="846.1" y="141.0" width="11.8" height="11.8" rx="3" fill="#151B23" stroke="#1E2633" stroke-width="0.6" />
+    <rect x="846.1" y="156.0" width="11.8" height="11.8" rx="3" fill="#0E7490" stroke="#155E75" stroke-width="0.6" />
   </g>
 
   <!-- Animated Diagonal Glare / Shimmer Effect -->
